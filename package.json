@@ -1,0 +1,46 @@
+{
+  "name": "social-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server/app.js --watch server",
+    "start": "node server/app.js",
+    "build": "next build",
+    "deploy": "now --public",
+    "alias": "now alias",
+    "remove:deploy": "now rm next-connect"
+  },
+  "keywords": [],
+  "author": "sushilparajuli2010@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.9.3",
+    "axios": "^0.18.0",
+    "clsx": "^1.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^2.0.1",
+    "date-fns": "^1.29.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.3.3",
+    "mongoose-mongodb-errors": "0.0.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "next": "^9.2.2",
+    "next-nprogress": "^1.4.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
